@@ -71,5 +71,8 @@ function sketch(p: P5) {
   p.windowResized = () => {
     p.resizeCanvas(p.windowWidth, p.windowHeight);
     p.background(0);
+    x = 0.1;
+    y = 0.2;
+    z = 0.3;
   };
 }
